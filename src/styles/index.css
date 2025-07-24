@@ -9,3 +9,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    background: #cae0e9;
+}
+
+.support{
+    background: #000;
+    width: 15px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.boxLight{
+    background: #000;
+    width: 130px;
+    height: 320px;
+    margin: 0px auto;
+    border-radius: 350px;
+}
+
+.boxLight div{
+    border: 2px solid #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.red{
+    background: #ed0d0d;
+    box-shadow: 2px 0px 77px 43px rgba(231,144,144,0.62);
+}
+
+.yellow{
+    background: #f4f012;
+    box-shadow: 2px 0px 77px 43px rgba(223,231,144,0.62);
+}
+
+.green{
+    background: #1de13e;
+    box-shadow: 2px 0px 77px 43px rgba(156,231,144,0.62);
+}
+
+.off{
+    border: 2px solid #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #000;
+    box-shadow: none;
+}
